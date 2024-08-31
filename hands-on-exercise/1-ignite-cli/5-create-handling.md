@@ -105,7 +105,7 @@ What is a well-formatted `MsgCreateGame`? Eventually, you want the black and red
     }
 ```
 
-You should not try to check whether they have enough tokens to play as that would be a stateful check. Stateful checks are handled as part of the message handling behind ACBI's [`DeliverTx`](/academy/2-cosmos-concepts/1-architecture.md#delivertx).
+You should not try to check whether they have enough tokens to play as that would be a stateful check. Stateful checks are handled as part of the message handling behind ABCI's [`DeliverTx`](/academy/2-cosmos-concepts/1-architecture.md#delivertx).
 
 ## Message handling coding steps
 
